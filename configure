@@ -93,8 +93,9 @@ EOF
 # tests
 rm -f \$\$~test \$\$~test.c
 cat > \$\$~test.c << EOF
-main()
+int main()
 {
+return 0;
 }
 EOF
 
